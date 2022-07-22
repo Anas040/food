@@ -1,0 +1,123 @@
+/* --------------------*/
+/*   BASIC SETUP  */
+/*---------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { 
+    color:rgb(61, 61, 61);
+    font-family: 'Cairo', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+ }
+ .row{
+    max-width: 1600px;
+    margin: 0 auto;
+ }
+/* --------------------*/
+/*  HEADINGS    */
+/*---------------------*/
+
+ h1{
+    margin: 0;
+    font-size: 270%;
+    font-weight: 300;
+    word-spacing: 4px;
+ }
+/* --------------------*/
+/*  BUTTONS    */
+/*---------------------*/
+
+ 
+.btn/*:link,
+.btn:visited*/{
+    display: inline-block;
+    padding: 10px 30px ;
+    text-decoration-line: none;
+    margin-top: 15px;
+    font-size: 80%;
+    border-radius: 100px;
+    transition: background-color 0.6s , color 0.6s;
+}
+.btn-full/*:link,
+.btn-full:visited*/{
+    color: bisque;
+    background-color: #10ac84; 
+    margin: 15px; 
+    border: 3px solid  #10ac84;
+}
+.btn-full:hover, 
+.btn-full:active{
+    background-color: #0d8d6c;
+}
+.btn-border/*:link,
+.btn-border:visited*/ {
+    color: black;
+    border: 3px solid  #10ac84;
+}
+.btn-border:hover,
+.btn-border:active{
+    background-color: #0d8d6c;
+}
+
+/* --------------------*/
+/*    HEADER   */
+/*---------------------*/
+header{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.527),rgba(255, 255, 255, 0.521)), url(/resource/img/img-header.jpg);
+    background-size: cover;
+    height: 100vh;}
+
+    .hero-text-box{
+        width: 1140px;
+        position: absolute;
+        top: 210px;
+        right: 6%;
+     }
+.logo{
+    width: 70px;
+    height: auto;
+    
+    margin-top: 25px;
+    position: absolute;
+    left: 80px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 33px ;
+    
+}    
+.main-nav li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    transition: border-bottom .3s;
+}
+.main-nav li :hover{
+    border-bottom: 3px solid #10ac84;
+}
+.main-nav li a:link ,
+.main-nav li a:visited{
+    text-decoration: none;
+    color:#555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
