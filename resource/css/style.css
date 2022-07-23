@@ -16,6 +16,10 @@ html {
     max-width: 1600px;
     margin: 0 auto;
  }
+ section{
+    padding: 100px 0 ;
+ }
+ 
 /* --------------------*/
 /*  HEADINGS    */
 /*---------------------*/
@@ -26,6 +30,44 @@ html {
     font-weight: 300;
     word-spacing: 4px;
  }
+ h2{
+    font-size: 180%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 35px;
+ }
+
+ h2::after{
+    display: block;
+    content: '';
+    height: 2px;
+    width: 100px;
+    background-color: #10ac84;
+    margin: 40px auto 0 auto;
+ }
+ h3{
+    font-size: 110%;
+    font-weight: 300;
+    margin-bottom: 15px;   
+ }
+
+ /* --------------------*/
+/*  PARAGRAPHS    */
+/*---------------------*/
+.card p {
+    font-size: 90%;
+    line-height: 1.4;
+    width: 90%;
+}
+.text{
+    line-height: 145%;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto 30px auto;
+    
+}
+
+
 /* --------------------*/
 /*  BUTTONS    */
 /*---------------------*/
@@ -104,8 +146,25 @@ header{
     text-decoration: none;
     color:#555;
 }
+/* --------------------*/
+/*   SECTION FEATURES   */
+/*---------------------*/
 
+.cards{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+.card{
+    width: 21%;
+}
 
+.card ion-icon {
+    width: 60px;
+    height: 60px;
+    fill: #10ac84 ;
+    margin-bottom: 15px;
+}
 
 
 
